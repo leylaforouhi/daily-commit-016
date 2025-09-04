@@ -1,2 +1,6 @@
-# daily-commit-016
-My sixteenth daily GitHub activity repository
+def remove_duplicates(items):
+    return list(set(items))
+
+if __name__ == "__main__":
+    sample = [1, 2, 2, 3, 4, 4, 5]
+    print(f"Without duplicates: {remove_duplicates(sample)}")
